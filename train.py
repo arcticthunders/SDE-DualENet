@@ -98,8 +98,7 @@ def plotter(epoch, trainloader):
         ax[3].imshow(depth)
         ax[3].set_title('GT')
         plt.show()
-        if count == 2:
-          break
+
 
 
 from midas.midas_net_custom import MidasNet_Fusion
